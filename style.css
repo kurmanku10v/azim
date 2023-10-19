@@ -1,0 +1,69 @@
+body{
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/170407220916-04-iconic-mountains-matterhorn-restricted.jpg?q=w_2512,h_1413,x_0,y_0,c_fill/h_618);
+    background-size: cover;
+}
+.a{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://png.pngtree.com/png-clipart/20220812/ourmid/pngtree-shine-sun-light-effect-free-png-and-psd-png-image_6106445.png);
+    background-size: cover;
+    animation: azim 5s infinite;
+    transition: 1s;
+    position: relative;
+}
+.b{
+    margin-top: 300px;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/originals/b4/b8/6e/b4b86e2f95381b402e71fd3089d370ab.gif);
+    background-size: cover;
+    background-position: center;
+    animation: bek 5s infinite;
+    transition: 1s;
+    position: relative; 
+}
+
+@keyframes azim{
+0%{
+    left: 100px;
+    top: -50px;
+    transform: rotate(360deg);
+}
+25%{
+    left: 400px;
+    top: -100px;
+}
+50%{
+    left: 500px;
+    top: -50px;
+}
+75%{
+    left: 600px;
+
+}
+100%{
+    left: 700px;
+
+}
+}
+
+@keyframes bek{
+0%{
+    left: 100px;
+
+}
+25%{
+    left: 400px;
+
+}
+50%{
+    left: 500px;
+ 
+}
+75%{
+    left: 600px;
+}
+100%{
+    left: 700px;
+}
+}
